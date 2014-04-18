@@ -223,7 +223,7 @@ def mods_to_omeka(target_dir)
 		
 
 # File URL
-	pdf_file = "#{@omeka_files}/#{box_link}/#{dc_identifier}.pdf"
+	pdf_file = "#{@omeka_files}/#{dc_identifier}.pdf"
 
 # Relation placeholder
 	dc_relation = nil

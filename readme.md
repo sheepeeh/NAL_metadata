@@ -54,6 +54,3 @@ Each option will execute the referenced script in a loop.
     -h, --help                       Display this screen.
 ```
 
-##Known Issues
-
-Strange things start happening with Omeka CSVs if the target directory has 3 files in it (or you've looped through the script 3 or more times). To prevent this, move completed files into a sub-directory.
