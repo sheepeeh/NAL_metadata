@@ -159,7 +159,6 @@ def mods_to_omeka(target_dir)
 		# Construct WKT for Neatline	
 		# Set lookup service to Bing
 			Geocoder::Configuration.lookup = :bing
-			Geocoder::Configuration.api_key = "Au4BFeRcYN04VGN-eeCXIdtDcrZlqgol7_mW67FkDZpfVI2M1vGA6Fw2KtKR8Vjc"
 			
 			address_string = nil
 			address_string = location.address_string
