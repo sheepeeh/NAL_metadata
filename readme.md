@@ -1,3 +1,6 @@
+#About
+This repo was shared in response to someone with an immediate need for using MODS with Omeka--it's an unmodified version of what I use day-to-day at work. As such, it isn't yet very well documented and may not be terribly friendly to customization. 
+
 ##Individual scripts
 
 **config.rb** -- configuration options for _nalmd.rb_
