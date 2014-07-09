@@ -5,15 +5,7 @@ This repo was shared in response to someone with an immediate need for using MOD
 
 **config.rb** -- configuration options for _nalmd.rb_
 
-**csv_to_mods.rb** -- converts a CSV file with collection, box, and folder numbers and generates basic MODS records for boxes and folders. Zips the files for batch upload to Islandora.
-
-**csv_to_mods_detailed.rb** -- converts a CSV file with dates, titles, and box/folder numbers and generates more detailed MODS records for boxes and folders. Zips the files for batch upload to Islandora.
-
 **download-MODS.rb** -- given a textfile with Fedora PIDs, downloads the MODS datastream
-
-**identifier.rb** -- converts single digit numbers to three digit numbers, generates folder and item identifiers, outputs results to originalfilename_output.csv (see test.csv and test_output.csv)
-
-**identifier_number-only.rb** -- updated to work with data from the item count spreadsheet, rather than the container list.
 
 **location.rb and person.rb** -- classes required for Omeka and IA CSV conversions.
 
